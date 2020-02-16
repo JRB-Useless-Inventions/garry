@@ -1,0 +1,72 @@
+.wrapper{
+    position: absolute;
+}
+.garry{
+    padding:10;
+    margin:20px;
+    display:"inline-block";
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    border:1px solid black;   
+    width:100px;
+    height:100px;
+    
+}
+
+.eye{
+    display: inherit;
+    width:14%;
+    height:25%;
+    position: absolute;
+    background-color: black;
+    top: 20%;
+    clip-path: ellipse(50% 50% at 50% 50%);
+}
+
+.pupil{
+    background-color: white;
+    width:35%;
+    height:35%;
+    border: unset;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    clip-path: inherit;
+}
+
+.arm{
+    display: inherit;
+    width:20%;
+    height:25%;
+    position: absolute;
+    background: linear-gradient(to bottom,#c4c4c400, #979797); /* Standard syntax (must be last) */     ;
+    top: 60%;
+    box-shadow: 2px 2px 2px 2px rgba(104, 104, 104, 0.219);
+    border-width: 1px;
+}
+
+.oval {
+    border-radius:50% / 50%;    
+}
+
+#left{
+    float: left;
+    left: 25%;
+}
+
+#right{
+    float: right;
+    right: 25%;
+}
+
+#boundary {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+}
